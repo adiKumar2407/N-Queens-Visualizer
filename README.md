@@ -15,3 +15,14 @@ Customizable board size to accommodate different variations of the puzzle.
 # Demo
 Website - https://incandescent-gingersnap-971aa5.netlify.app/
 
+# Algorithm
+
+Approach
+
+. Start with an empty chessboard.
+. Place a queen in the first row.
+. Move to the next row and place a queen in a safe position.
+. Repeat step 3 until all queens are placed or no safe position is found.
+. If all queens are placed, a solution is found. If not, backtrack and try a different position for the previous queen.
+. Repeat steps 3-5 until all solutions are found.
+
